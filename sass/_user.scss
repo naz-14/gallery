@@ -1,0 +1,14 @@
+$purple: '#401839';
+$darkPurple: '#24121F';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}

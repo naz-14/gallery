@@ -1,0 +1,39 @@
+.site-header {
+  min-height: 7.9rem;
+  background-color: $darkPurple;
+  display: flex;
+  @media (min-width: 768px) {
+    min-height: 9rem;
+  }
+
+}
+.site-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__logo-wrapper {
+  flex: 1 1 40%;
+  @media (min-width: 1440px) {
+    flex: 1 1 42.5%;
+  }
+}
+.site-header__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 0;
+  color: white;
+  @media (min-width: 321px) and (max-width: 767px) {
+    font-size: calc(15px + (24 - 15) * ((100vw - 321px) / (767 - 321)));
+  }
+  @media (min-width: 768px) {
+    font-size: 2.4rem;
+  }
+  @media (min-width: 769px) and (max-width: 1439px) {
+    font-size: calc(24px + (31 - 24) * ((100vw - 769px) / (1439 - 769)));
+  }
+  @media (min-width: 1440px) {
+    font-size: 3.1rem;
+  }
+}

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/styles.css">
   
@@ -13,27 +13,29 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="site-header__logo-wrapper content">
-      <h1 class="site-header__logo">Gallery</h1>
-    </div>
-    <div class="site-header__search-form-wrapper">
-      <form action="get" class="site-header__search-form">
-        <input type="text" name="search" placeholder="search" id="searchInput" class="site-header__search-input">
-        <button class="site-header__search-submit">-></button>
-      </form>
+    <div class="site-header__wrapper content">
+      <div class="site-header__logo-wrapper">
+        <h1 class="site-header__logo">Gallery</h1>
+      </div>
+      <div class="site-header__search-form-wrapper">
+        <form action="get" class="site-header__search-form">
+          <input type="text" name="search" placeholder="search" id="searchInput" class="site-header__search-input">
+          <button class="site-header__search-submit">-></button>
+        </form>
+      </div>
     </div>
   </header>
-  <section class="navegation">
+  <section class="navegation content">
     <nav class="site-nav">
       <ul class="site-nav__ul content">
-        <li class="site-nav__li"><a href="#" class="site-nav__link">Discover</a></li>
-        <li class="site-nav__li"><a href="#" class="site-nav__link">Recommended</a></li>
-        <li class="site-nav__li"><a href="#" class="site-nav__link">Most popular</a></li>
+        <li class="site-nav__li"><a href="#" class="site-nav__link link">Discover</a></li>
+        <li class="site-nav__li"><a href="#" class="site-nav__link link">Recommended</a></li>
+        <li class="site-nav__li"><a href="#" class="site-nav__link link">Most popular</a></li>
       </ul>
     </nav>
     <div class="mobile-menu-wrapper">
       <button class="hamburger-btn" id="hamburgerBtn">
-        <img src="" alt="hamburger-btn" class="hamburger-image">
+        <img src="img/hamburger.svg" alt="hamburger-btn" class="hamburger-image">
       </button>
     </div>
   </section>
@@ -43,8 +45,6 @@
         <a href="#" class="site-main__galery-section-link">
           <div class="site-main__section-preview-wrapper">
             <img src="" alt="section-preview" class="site-main__section-preview">
-          </div>
-          <div class="site-main__section-title-wrapper">
             <h2 class="section-title">City</h2>
           </div>
         </a>

@@ -33,7 +33,7 @@ img {
 }
 .section-title {
   font-size: 1.3rem;
-  line-height: 28;
+  line-height: 28px;
   @media (min-width: 769px) and (max-width: 1439px) {
     font-size: calc(13px + (19 - 13) * ((100vw - 768px) / (1439 - 769)));
   }

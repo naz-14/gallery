@@ -1,0 +1,72 @@
+{
+  "categories":[
+     {
+        "name":"city",
+        "preview":"./img/city-preview.jpg",
+        "id":1
+     },
+     {
+        "name":"nature",
+        "preview":"./img/nature-preview.jpg",
+        "id":2
+     },
+     {
+        "name":"abstract",
+        "preview":"./img/abstract-preview.jpg",
+        "id":3
+     },
+     {
+        "name":"animated",
+        "preview":"./img/animated-preview.jpg",
+        "id":4
+     },
+     {
+        "name":"food",
+        "preview":"./img/food-preview.jpg",
+        "id":5
+     },
+     {
+        "name":"animals",
+        "preview":"./img/animals-preview.jpg",
+        "id":6
+     }
+  ],
+  "food": [
+     {
+        "alt": "Comidita",
+        "preview": "./img/food/preview1.jpg",
+        "fullres": "./img/food/preview1.jpg"
+     },
+     {
+      "alt": "Comidita",
+      "preview": "./img/food/preview2.jpg",
+      "fullres": "./img/food/preview2.jpg"
+      },
+      {
+         "alt": "Comidita",
+         "preview": "./img/food/preview3.jpg",
+         "fullres": "./img/food/preview3.jpg"
+      },
+      {
+         "alt": "Comidita",
+         "preview": "./img/food/preview4.jpg",
+         "fullres": "./img/food/preview4.jpg"
+      },
+      {
+         "alt": "Comidita",
+         "preview": "./img/food/preview5.jpg",
+         "fullres": "./img/food/preview5.jpg"
+      },
+      {
+         "alt": "Comidita",
+         "preview": "./img/food/preview6.jpg",
+         "fullres": "./img/food/preview6.jpg"
+      },
+      {
+         "alt": "Comidita",
+         "preview": "./img/food/preview7.jpg",
+         "fullres": "./img/food/preview7.jpg"
+      }
+     
+  ]
+}

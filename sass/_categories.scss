@@ -1,38 +1,32 @@
 .site-main__wrapper {
-  @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    justify-content: center;
-    grid-column-gap: 5rem;
-    justify-items: center;
-    grid-row-gap: 3.8rem;
-  }
-  @media (min-width: 1280px) {
-    grid-template-columns: repeat(auto-fill, minmax(383px, 1fr));
-  }
-}
-.site-main__galery-section {
-  @media (min-width: 768px) {
-    width: 32rem;
-  }
-  @media (min-width: 1280px) {
-    width: 38.3rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 320px));
+  justify-content: center;
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(auto-fit, minmax(275px, 383px));
   }
 }
 .site-main__section-preview-wrapper {
   position: relative;
   margin-bottom: 1.5rem;
   min-height: 19.3rem;
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     min-height: 22.5rem;
     margin-bottom: 0;
+  }
+  @media (min-width: 1440px) {
+    min-height: 27rem;
   }
 }
 .site-main__section-preview {
   width: 100%;
   height: 19.3rem;
-  @media (min-height: 768px) {
+  @media (min-width: 768px) {
     min-height: 22.5rem;
+  }
+  @media (min-width: 1440px) {
+    min-height: 27rem;
   }
 }
 .section-title {
@@ -41,16 +35,15 @@
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: $darkestPurple;
+  background-color: $purple;
   margin: 0;
   padding: 0 1rem;
   min-height: 4rem;
   display: flex;
   align-items: center;
-}
-
-.prueba {
-  background-image: url(../img/nier.jpg);
-  background-size: cover;
-  background-position: center center;
+  text-transform: capitalize;
+  color: white;
+  @media (min-width: 1440px) {
+    min-height: 4.7rem;
+  }
 }

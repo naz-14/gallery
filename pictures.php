@@ -9,17 +9,17 @@ $categories = json_decode($data, true);
   $picturesArray = $categories[$sectionId];
 }?>
 <main class="pictures">
-  <div class="pictures-wrapper content">
+  <div class="grid pictures-wrapper content">
     <?php foreach ($picturesArray as $picture) { ?>
-      <div class="picture-wrapper">
-        <a href="<?php echo $picture["fullres"]?>">
-          <img src="<?php echo $picture["preview"]?>" alt="<?php echo $picture["alt"]?>" class="picture">
-        </a>
+      <div class="item">
+        <div class="item-content picture-wrapper">
+          <a href="<?php echo $picture["fullres"]?>">
+            <img src="<?php echo $picture["preview"]?>" alt="<?php echo $picture["alt"]?>" class="picture">
+          </a>
+        </div>
       </div>
     <?php } ?>
   </div>
 </main>
-
-
 
 <?php include 'inc/templates/footer.php';?>

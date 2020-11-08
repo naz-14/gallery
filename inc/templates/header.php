@@ -15,7 +15,7 @@
   <header class="site-header">
     <div class="site-header__wrapper content">
       <div class="site-header__logo-wrapper">
-        <h1 class="site-header__logo">Gallery</h1>
+        <a class="site-header__logo-link" href="/"><h1 class="site-header__logo">Gallery</h1></a>
       </div>
       <div class="site-header__search-form-wrapper">
         <form action="get" class="site-header__search-form">

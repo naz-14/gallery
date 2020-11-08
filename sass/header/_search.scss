@@ -40,10 +40,12 @@
     height: 100%;
     background-color: $purple;
     border: none;
-    color: white;
     border-radius: 0 15px 15px 0;
     @media (min-width: 1440px) {
       width: 60px;
     }
+  }
+  .go-icon {
+    height: 30%;
   }
 }

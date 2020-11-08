@@ -1,12 +1,14 @@
 window.addEventListener('load',()=> {
-  const grid = new Muuri(".grid", {
-    layout: {
-      rounding: false,
-    },
-  });
+  if (document.querySelector('.grid')) {
+    
+    const grid = new Muuri(".grid", {
+      layout: {
+        rounding: false,
+      },
+    });
+  }
 })
 window.addEventListener('DOMContentLoaded',()=> {
-  const searchBar = document.querySelector('')
   const pictures = document.querySelectorAll('.picture-wrapper');
   pictures.forEach(picture => {
     picture.addEventListener('click', clickOnPicture);

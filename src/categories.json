@@ -1,72 +1,132 @@
 {
-  "categories":[
-     {
-        "name":"city",
-        "preview":"./img/city-preview.jpg",
-        "id":1
-     },
-     {
-        "name":"nature",
-        "preview":"./img/nature-preview.jpg",
-        "id":2
-     },
-     {
-        "name":"abstract",
-        "preview":"./img/abstract-preview.jpg",
-        "id":3
-     },
-     {
-        "name":"animated",
-        "preview":"./img/animated-preview.jpg",
-        "id":4
-     },
-     {
-        "name":"food",
-        "preview":"./img/food-preview.jpg",
-        "id":5
-     },
-     {
-        "name":"animals",
-        "preview":"./img/animals-preview.jpg",
-        "id":6
-     }
-  ],
-  "food": [
-     {
-        "alt": "Comidita",
-        "preview": "./img/food/preview1.jpg",
-        "fullres": "./img/food/preview1.jpg"
-     },
-     {
-      "alt": "Comidita",
-      "preview": "./img/food/preview2.jpg",
-      "fullres": "./img/food/preview2.jpg"
+   "categories": [
+      {
+         "name": "city",
+         "preview": "./img/city-preview.jpg",
+         "id": 1
       },
       {
+         "name": "nature",
+         "preview": "./img/nature-preview.jpg",
+         "id": 2
+      },
+      {
+         "name": "abstract",
+         "preview": "./img/abstract-preview.jpg",
+         "id": 3
+      },
+      {
+         "name": "animated",
+         "preview": "./img/animated-preview.jpg",
+         "id": 4
+      },
+      {
+         "name": "food",
+         "preview": "./img/food-preview.jpg",
+         "id": 5
+      },
+      {
+         "name": "animals",
+         "preview": "./img/animals-preview.jpg",
+         "id": 6
+      }
+   ],
+   "pictures": [
+      {
+         "category": "food",
+         "alt": "Comidita",
+         "preview": "./img/food/preview1.jpg",
+         "fullres": "./img/food/preview1.jpg",
+         "tags": [
+            "filete",
+            "carne",
+            "papas",
+            "popular"
+         ]
+      },
+      {
+         "category": "food",
+         "alt": "Comidita",
+         "preview": "./img/food/preview2.jpg",
+         "fullres": "./img/food/preview2.jpg",
+         "tags": [
+            "moras",
+            "morado",
+            "hotcakes"
+         ]
+      },
+      {
+         "category": "food",
          "alt": "Comidita",
          "preview": "./img/food/preview3.jpg",
-         "fullres": "./img/food/preview3.jpg"
+         "fullres": "./img/food/preview3.jpg",
+         "tags": [
+            "frutas",
+            "plato",
+            "fresas",
+            "moras",
+            "nueces"
+         ]
       },
       {
+         "category": "food",
          "alt": "Comidita",
          "preview": "./img/food/preview4.jpg",
-         "fullres": "./img/food/preview4.jpg"
+         "fullres": "./img/food/preview4.jpg",
+         "tags": [
+            "miel",
+            "tostada",
+            "blanco",
+            "vela",
+            "mesa",
+            "recomended"
+         ]
       },
       {
+         "category": "food",
          "alt": "Comidita",
          "preview": "./img/food/preview5.jpg",
-         "fullres": "./img/food/preview5.jpg"
+         "fullres": "./img/food/preview5.jpg",
+         "tags": [
+            "ensalada",
+            "verde",
+            "pepino",
+            "zanahoria",
+            "lechuga",
+            "elote",
+            "huevo",
+            "huevos",
+            "recomended"
+         ]
       },
       {
+         "category": "food",
          "alt": "Comidita",
          "preview": "./img/food/preview6.jpg",
-         "fullres": "./img/food/preview6.jpg"
+         "fullres": "./img/food/preview6.jpg",
+         "tags": [
+            "rosa",
+            "pancakes",
+            "pan",
+            "mantecada",
+            "mantecadas"
+         ]
       },
       {
+         "category": "food",
          "alt": "Comidita",
          "preview": "./img/food/preview7.jpg",
-         "fullres": "./img/food/preview7.jpg"
+         "fullres": "./img/food/preview7.jpg",
+         "tags": [
+            "cereal",
+            "miel",
+            "frascos",
+            "frasco",
+            "vidrio",
+            "cherry",
+            "mermelada",
+            "blanco"
+         ]
       }
-     
-  ]
+   ]
 }

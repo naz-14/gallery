@@ -18,9 +18,9 @@
         <a class="site-header__logo-link" href="/"><h1 class="site-header__logo">Gallery</h1></a>
       </div>
       <div class="site-header__search-form-wrapper">
-        <form action="get" class="site-header__search-form">
+        <form action="pictures.php" method="get" class="site-header__search-form">
           <input type="text" name="search" placeholder="search" id="searchInput" class="site-header__search-input">
-          <button class="site-header__search-submit">-></button>
+          <button class="site-header__search-submit"><img class="go-icon" src="img/go.svg" alt="go icon"></button>
         </form>
       </div>
     </div>

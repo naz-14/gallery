@@ -1,3 +1,6 @@
+.pictures {
+  overflow: hidden;
+}
 .grid {
   position: relative;
   text-align: center;
@@ -22,6 +25,23 @@
   height: 100%;
 }
 
+.pictures-not-found-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  & .pictures-not-found-text {
+    text-align: center;
+  }
+  & .link-to-categories {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: $purple;
+  }
+}
 .overlay {
   position: fixed;
   top: 0;

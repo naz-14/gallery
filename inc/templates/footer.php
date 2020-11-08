@@ -1,5 +1,6 @@
 <footer class="site-footer">
     <div class="site-footer__wrapper">
+      <h2 class="footer-text">Powered and designed by PitScript Team</h2>
     </div>
   </footer>
   <?php  if (basename($_SERVER['PHP_SELF'])) {

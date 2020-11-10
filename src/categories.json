@@ -2,32 +2,32 @@
    "categories": [
       {
          "name": "city",
-         "preview": "./img/city-preview.jpg",
+         "preview": "./img/city-preview-min.webp",
          "id": 1
       },
       {
          "name": "nature",
-         "preview": "./img/nature-preview.jpg",
+         "preview": "./img/nature-preview-min.webp",
          "id": 2
       },
       {
          "name": "abstract",
-         "preview": "./img/abstract-preview.jpg",
+         "preview": "./img/abstract-preview-min.webp",
          "id": 3
       },
       {
          "name": "animated",
-         "preview": "./img/animated-preview.jpg",
+         "preview": "./img/animated-preview-min.webp",
          "id": 4
       },
       {
          "name": "food",
-         "preview": "./img/food-preview.jpg",
+         "preview": "./img/food-preview-min.webp",
          "id": 5
       },
       {
          "name": "animals",
-         "preview": "./img/animals-preview.jpg",
+         "preview": "./img/animals-preview-min.webp",
          "id": 6
       }
    ],
@@ -35,7 +35,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview1.jpg",
+         "preview": "./img/food/preview1-min.webp",
          "fullres": "./img/food/preview1.jpg",
          "tags": [
             "filete",
@@ -47,7 +47,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview2.jpg",
+         "preview": "./img/food/preview2-min.webp",
          "fullres": "./img/food/preview2.jpg",
          "tags": [
             "moras",
@@ -58,7 +58,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview3.jpg",
+         "preview": "./img/food/preview3-min.webp",
          "fullres": "./img/food/preview3.jpg",
          "tags": [
             "frutas",
@@ -71,7 +71,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview4.jpg",
+         "preview": "./img/food/preview4-min.webp",
          "fullres": "./img/food/preview4.jpg",
          "tags": [
             "miel",
@@ -85,7 +85,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview5.jpg",
+         "preview": "./img/food/preview5-min.webp",
          "fullres": "./img/food/preview5.jpg",
          "tags": [
             "ensalada",
@@ -102,7 +102,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview6.jpg",
+         "preview": "./img/food/preview6-min.webp",
          "fullres": "./img/food/preview6.jpg",
          "tags": [
             "rosa",
@@ -115,7 +115,7 @@
       {
          "category": "food",
          "alt": "Comidita",
-         "preview": "./img/food/preview7.jpg",
+         "preview": "./img/food/preview7-min.webp",
          "fullres": "./img/food/preview7.jpg",
          "tags": [
             "cereal",

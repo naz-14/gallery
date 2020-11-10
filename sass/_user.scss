@@ -20,12 +20,15 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
 img {
   max-width: 100%;
+}
+.content-wrapper {
+  margin-bottom: 5rem;
 }
 .content {
   width: 86%;

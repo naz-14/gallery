@@ -5,6 +5,8 @@
 .grid {
   position: relative;
   text-align: center;
+  opacity: 0;
+  transition: opacity .8s linear 1s;
 }
 .item {
   display: block;
@@ -53,6 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 100;
 }
 .overlay__image-wrapper {
   width: 100%;
@@ -84,4 +87,24 @@
 .overlay__close-btn {
   background: none;
   border: none;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .6s linear .4s;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.images-loaded {
+  & .grid {
+    opacity: 1;
+  }
+  & .loading {
+    opacity: 0;
+  }
 }

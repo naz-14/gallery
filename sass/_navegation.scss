@@ -1,5 +1,8 @@
 .navegation {
   text-align: right;
+  @media (min-width: 1280px) {
+    margin-top: 1rem;
+  }
 }
 .site-nav {
   position: fixed;
@@ -8,11 +11,16 @@
   transform: translateX(120%);
   height: 100vh;
   background-color: $darkPurple;
+  transition: all .3s linear;
+  z-index: 10;
   @media (min-width: 768px) {
     position: relative;
     transform: translateX(0);
     background-color: transparent;
     height: auto;
+  }
+  &.show {
+    transform: translateX(0);
   }
 }
 .site-nav__ul {

@@ -28,8 +28,9 @@ img {
   max-width: 100%;
 }
 .content-wrapper {
-  margin-bottom: 5rem;
+  flex: 1;
 }
+
 .content {
   width: 86%;
   max-width: 130.2rem;
@@ -42,10 +43,10 @@ img {
   }
 }
 .section-title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 28px;
   @media (min-width: 769px) and (max-width: 1439px) {
-    font-size: calc(13px + (19 - 13) * ((100vw - 768px) / (1439 - 769)));
+    font-size: calc(16px + (19 - 16) * ((100vw - 768px) / (1439 - 769)));
   }
   @media (min-width: 1440px) {
     font-size: 1.9rem;

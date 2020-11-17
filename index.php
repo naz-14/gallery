@@ -18,13 +18,16 @@
         <img src="img/hamburger.svg" alt="hamburger">
       </button>
     </section>
-    <main class="site-main">
+    <main class="site-main categories">
       <div class="site-main__wrapper content">
         <?php foreach ($categoriesArray as $category) {?>
         <div class="site-main__galery-section">
           <a href="pictures.php?search=<?php echo $category["name"]?>" class="site-main__galery-section-link">
             <div class="site-main__section-preview-wrapper">
-              <img src="<?php echo $category["preview"] ?>" alt="section-preview" class="site-main__section-preview">
+              <picture>
+                <source srcset="<?php echo $category["preview_webp"]?>" type="image/webp">
+                <img src="<?php echo $category["preview"] ?>" alt="section-preview" class="site-main__section-preview">
+              </picture>
               <h2 class="section-title"><?php echo $category["name"]?></h2>
             </div>
           </a>

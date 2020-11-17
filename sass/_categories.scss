@@ -10,6 +10,11 @@
     grid-template-columns: repeat(auto-fit, minmax(275px, 383px));
   }
 }
+.categories {
+  @media (min-width: 768px) {
+    margin-top: 4rem
+  }
+}
 .site-main__section-preview-wrapper {
   position: relative;
   margin-bottom: 1.5rem;

@@ -20,6 +20,9 @@ foreach ($picturesFilter as $value) {
 ?>
 <?php include 'inc/templates/header.php';?>
 <div class="content-wrapper">
+  <div class="loading">
+    <h1>Loading images...</h1>
+  </div>
   <main class="pictures">
     <?php if (sizeof($picturesResult) != 0) { ?>
       <div class="grid pictures-wrapper content">
@@ -27,7 +30,10 @@ foreach ($picturesFilter as $value) {
         <div class="item">
           <div class="item-content picture-wrapper">
             <a href="<?php echo $picture["fullres"]?>">
+              <picture>
+              <source srcset="<?php echo $picture["preview_webp"]?>" type="image/webp">
               <img src="<?php echo $picture["preview"]?>" alt="<?php echo $picture["alt"]?>" class="picture">
+              </picture>
             </a>
           </div>
         </div>
